@@ -1,0 +1,12 @@
+coffee=7
+while coffee > 0:
+    money = 600
+    if money==300:
+        print("coffee")
+        coffee = coffee-1
+    elif money < 300:
+        print("%d원을 돌려줍니다" % money)
+    else: 
+        print("coffee")
+        coffee = coffee -1
+        print("%d원을 돌려줍니다" % (money-300))
